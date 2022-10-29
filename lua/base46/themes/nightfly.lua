@@ -56,14 +56,15 @@ M.base_16 = {
   base0F = "#21c7a8",
 }
 
--- M.polish_hl = {
---   ["@parameter"] = {
---     fg = M.base_16.base0A,
---   },
---   Constant = {
---     fg = M.base_16.base09,
---   },
--- }
+M.polish_hl = {
+  ["@parameter"] = { fg = M.base_16.base07 },
+  ["@annotation"] = { fg = M.base_16.base0D },
+  ["@attribute"] = { fg = M.base_16.base0C },
+  ["@constant"] = { fg = M.base_16.base0E },
+  ["@constructor"] = { fg = M.base_16.base0F },
+  ["@keyword.operator"] = { fg = M.base_16.base0E },
+  ["@tag"] = { fg = M.base_16.base0D },
+}
 
 vim.opt.bg = "dark"
 
